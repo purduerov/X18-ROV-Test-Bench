@@ -1,4 +1,4 @@
-25609861742440366
+25613378784999032
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102689,6 +102689,20 @@ power_symbols
 0
 6
 6
+power_symbols
+BMR491_FPM
+
+BMR4912510/871 
+0
+15
+15
+power_symbols
+RPM5.0-6.0
+
+RPM5.0-6.0 
+0
+25
+25
 power_symbols
 SAMTEC_ET60T-D04-3-08-D04-X-R1-S
 

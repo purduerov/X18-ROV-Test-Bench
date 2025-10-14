@@ -3705,6 +3705,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Programming Header"
+		(exclude_from_sim no)
+		(at 63.246 89.154 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "27462864-7f4f-4fec-a95f-458b580bea10")
+	)
 	(junction
 		(at 210.82 81.28)
 		(diameter 0)
@@ -3917,7 +3927,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 83.82) (xy 73.66 83.82)
+			(xy 69.85 82.55) (xy 66.04 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3977,7 +3987,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 81.28) (xy 73.66 81.28)
+			(xy 69.85 80.01) (xy 66.04 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4136,7 +4146,7 @@
 		(uuid "1161d549-c940-470c-9370-ee131b3608a8")
 	)
 	(label "SWDIO "
-		(at 77.47 81.28 0)
+		(at 69.85 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4146,7 +4156,7 @@
 		(uuid "6d89af44-08e5-424e-ab5b-59f41e97b410")
 	)
 	(label "SWCLK "
-		(at 77.47 83.82 0)
+		(at 69.85 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4369,7 +4379,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 73.66 78.74 90)
+		(at 66.04 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4378,7 +4388,7 @@
 		(fields_autoplaced yes)
 		(uuid "136635c9-0a19-413e-8260-4d7785705eab")
 		(property "Reference" "#PWR028"
-			(at 80.01 78.74 0)
+			(at 72.39 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4387,7 +4397,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.47 78.7399 90)
+			(at 69.85 77.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4396,7 +4406,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 78.74 0)
+			(at 66.04 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4405,7 +4415,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 78.74 0)
+			(at 66.04 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4414,7 +4424,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 78.74 0)
+			(at 66.04 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4837,7 +4847,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 73.66 86.36 270)
+		(at 66.04 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4846,7 +4856,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ef2ebda-f5d8-4f1d-afc6-c9c13448c5df")
 		(property "Reference" "#PWR029"
-			(at 69.85 86.36 0)
+			(at 62.23 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4855,7 +4865,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 77.47 86.3599 90)
+			(at 69.85 85.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4864,7 +4874,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 86.36 0)
+			(at 66.04 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4873,7 +4883,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 86.36 0)
+			(at 66.04 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4882,7 +4892,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 73.66 86.36 0)
+			(at 66.04 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5797,7 +5807,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 68.58 81.28 0)
+		(at 60.96 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5806,7 +5816,7 @@
 		(fields_autoplaced yes)
 		(uuid "b52e2dc2-d144-4e8b-afb4-c3d03cfb2007")
 		(property "Reference" "J7"
-			(at 69.215 73.66 0)
+			(at 61.595 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5814,7 +5824,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 69.215 76.2 0)
+			(at 61.595 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5822,7 +5832,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 81.28 0)
+			(at 60.96 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5831,7 +5841,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 81.28 0)
+			(at 60.96 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5840,7 +5850,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 68.58 81.28 0)
+			(at 60.96 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)

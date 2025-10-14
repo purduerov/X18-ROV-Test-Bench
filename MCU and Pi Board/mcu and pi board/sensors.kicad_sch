@@ -1228,6 +1228,16 @@
 		)
 		(uuid "6677ec1c-b577-492b-a309-85acf13edb9d")
 	)
+	(text "have onboard 10k pullup resistors\n"
+		(exclude_from_sim no)
+		(at 148.59 46.228 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b53d1c61-b77a-4ad8-916a-111ee4ac6a27")
+	)
 	(text "IMU Connector\nAddress is 0x4A\n"
 		(exclude_from_sim no)
 		(at 122.682 42.926 0)

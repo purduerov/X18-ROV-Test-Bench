@@ -1250,6 +1250,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Pi Header"
+		(exclude_from_sim no)
+		(at 109.982 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fdf371a9-8da4-4917-899c-c1294016d513")
+	)
 	(label "GPIO 2 (SDA)"
 		(at 93.98 38.1 180)
 		(effects

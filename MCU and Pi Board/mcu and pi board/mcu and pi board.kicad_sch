@@ -1,0 +1,936 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b20a486a-db1b-4621-abfe-a5d205c676b3")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:R_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 119.38 60.96) (xy 119.38 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1351aeb2-708b-46d7-aeee-8a80786877e5")
+	)
+	(wire
+		(pts
+			(xy 163.83 35.56) (xy 179.07 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15adaa5b-8727-43d1-9245-fa6b8f12a9d8")
+	)
+	(wire
+		(pts
+			(xy 161.29 60.96) (xy 161.29 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e82f47d-d30f-4c77-94c1-3accb062d4ca")
+	)
+	(wire
+		(pts
+			(xy 153.67 60.96) (xy 153.67 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61b9e726-4c2c-4da9-88cc-008b1c3b3af3")
+	)
+	(wire
+		(pts
+			(xy 143.51 60.96) (xy 143.51 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "756a24b3-80df-43fc-b583-2d83117fe80a")
+	)
+	(wire
+		(pts
+			(xy 207.01 60.96) (xy 207.01 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "756a5e16-746d-458b-9af8-4d329b68fb1e")
+	)
+	(wire
+		(pts
+			(xy 163.83 41.91) (xy 179.07 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7870fb46-b522-4012-ae6a-df97fe577e19")
+	)
+	(wire
+		(pts
+			(xy 199.39 60.96) (xy 199.39 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e6b9208-3c04-4cfe-a622-322dce4189e8")
+	)
+	(wire
+		(pts
+			(xy 105.41 82.55) (xy 110.49 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "861672ce-3e21-4273-bcc8-438b96d8f5ce")
+	)
+	(wire
+		(pts
+			(xy 127 60.96) (xy 127 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "870cf9c8-e425-4f04-b33c-0afada4a06ac")
+	)
+	(wire
+		(pts
+			(xy 149.86 60.96) (xy 149.86 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87e1d176-2701-4b08-a81d-f69acf0043bf")
+	)
+	(wire
+		(pts
+			(xy 147.32 60.96) (xy 147.32 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "913f0441-1eb7-4143-8c45-53fea97ffb6b")
+	)
+	(wire
+		(pts
+			(xy 163.83 31.75) (xy 179.07 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d04ced49-2aae-481e-ae56-db458d07c13c")
+	)
+	(wire
+		(pts
+			(xy 123.19 60.96) (xy 123.19 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7158aaf-0ac9-4177-9f28-ddb94e760b98")
+	)
+	(wire
+		(pts
+			(xy 163.83 39.37) (xy 179.07 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e96fe71e-8fea-4fb8-b088-35cef0ee6886")
+	)
+	(wire
+		(pts
+			(xy 161.29 71.12) (xy 161.29 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1e3c885-d8e8-4daf-a22c-1ac42ba3e402")
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 161.29 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2079ada-1bc9-4afe-bb88-244a48c1405d")
+		(property "Reference" "R4"
+			(at 163.83 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 163.83 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.306 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 161.29 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "474c5640-c07d-4c13-ba94-75c77c48d932")
+		)
+		(pin "2"
+			(uuid "08eb733c-efa0-4f3f-b5ce-cee707b91994")
+		)
+		(instances
+			(project ""
+				(path "/b20a486a-db1b-4621-abfe-a5d205c676b3"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 27.94)
+		(size 52.07 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "51029924-342a-47f7-95d8-8f14ebe6a876")
+		(property "Sheetname" "STM32"
+			(at 111.76 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stm32.kicad_sch"
+			(at 111.76 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MISO" input
+			(at 163.83 31.75 0)
+			(uuid "bbfc4b90-ef9c-4747-87f1-567b8741256c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOSI" input
+			(at 163.83 35.56 0)
+			(uuid "c26f6de2-c245-49d1-8025-f260a1daf536")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NSS" input
+			(at 163.83 41.91 0)
+			(uuid "eff2b76b-a647-4b2e-8444-64867ae74c71")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCLK" input
+			(at 163.83 39.37 0)
+			(uuid "a325b6b8-cf6c-4bed-bc68-ff64711704a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESC_PWM_1" input
+			(at 143.51 60.96 270)
+			(uuid "afdf4fc4-2384-4323-abff-fcb9172b216f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESC_PWM_2" input
+			(at 147.32 60.96 270)
+			(uuid "9cca2bca-1669-4ccf-8b43-e754cc7a7b8d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESC_PWM_3" input
+			(at 149.86 60.96 270)
+			(uuid "a0b55f57-5eff-42a4-a44f-915b4f4e6cc5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESC_PWM_4" input
+			(at 153.67 60.96 270)
+			(uuid "710d24a3-5366-4906-ba68-9f5c6a6f610d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SERVO_PWM_1" input
+			(at 119.38 60.96 270)
+			(uuid "0581864e-7614-4f46-b498-b2f2cfa8ff1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SERVO_PWM_2" input
+			(at 123.19 60.96 270)
+			(uuid "2f81d59d-340c-458b-a621-0233e2bde53d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SERVO_PWM_3" input
+			(at 127 60.96 270)
+			(uuid "f55b8672-3322-45c8-bfb7-7c486b21647f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESC_Telemetry" input
+			(at 161.29 60.96 270)
+			(uuid "14a4132f-5569-4084-b26f-8d7da2b708c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "mcu and pi board"
+				(path "/b20a486a-db1b-4621-abfe-a5d205c676b3"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 181.61 77.47)
+		(size 36.83 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "52c764d6-917f-4b2b-b6f8-6c902b5ee893")
+		(property "Sheetname" "sensors"
+			(at 181.61 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 181.61 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCL" input
+			(at 199.39 77.47 90)
+			(uuid "1482589d-f342-4b55-9bd7-dc77505ab4f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" input
+			(at 207.01 77.47 90)
+			(uuid "1d97a216-142a-41d6-8744-cc52e4c7d8ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "mcu and pi board"
+				(path "/b20a486a-db1b-4621-abfe-a5d205c676b3"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 69.85 73.66)
+		(size 35.56 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bef0208e-671a-46f7-958e-767cd5c13c2b")
+		(property "Sheetname" "power"
+			(at 69.85 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 69.85 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+6V" input
+			(at 105.41 82.55 0)
+			(uuid "7e72ce27-40fb-4e47-a841-a79fd7ffa529")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "mcu and pi board"
+				(path "/b20a486a-db1b-4621-abfe-a5d205c676b3"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 110.49 73.66)
+		(size 57.15 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cf9b13c4-ce92-4bbb-82dc-82851d7b76da")
+		(property "Sheetname" "servo and esc"
+			(at 110.49 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "servo_esc.kicad_sch"
+			(at 110.49 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ESC_PWM_1" input
+			(at 143.51 73.66 90)
+			(uuid "618255b1-5cc7-46ea-9916-1e7821f29742")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESC_PWM_2" input
+			(at 147.32 73.66 90)
+			(uuid "36785fc1-d40a-41d5-a0b7-e0defa261c7e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESC_PWM_3" input
+			(at 149.86 73.66 90)
+			(uuid "92f97e8d-306e-4b88-9b53-bc43ab18153f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESC_PWM_4" input
+			(at 153.67 73.66 90)
+			(uuid "59460195-11f8-427c-b1b5-fa273820e350")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESC_Telemetry" input
+			(at 161.29 73.66 90)
+			(uuid "9c895695-8de3-4e8b-805d-6e0538bee768")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+6V" input
+			(at 110.49 82.55 180)
+			(uuid "6bfcc970-fed6-4cf8-8e7f-48eee9690e7d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SERVO_PWM_1" input
+			(at 119.38 73.66 90)
+			(uuid "ddc17e09-9ef4-4a82-82a1-a2989542bea7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SERVO_PWM_2" input
+			(at 123.19 73.66 90)
+			(uuid "f315261c-0b5d-4b4e-bc2d-36ec5649ade5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SERVO_PWM_3" input
+			(at 127 73.66 90)
+			(uuid "35880b32-5731-47ad-bf95-7634e74a71d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "mcu and pi board"
+				(path "/b20a486a-db1b-4621-abfe-a5d205c676b3"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.07 29.21)
+		(size 43.18 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dda479c6-78f4-4e1c-82b6-b799f08d03a6")
+		(property "Sheetname" "pi"
+			(at 179.07 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pi.kicad_sch"
+			(at 179.07 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 179.07 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "SCL" input
+			(at 199.39 60.96 270)
+			(uuid "7f0538cf-14d6-496d-b68b-d72abe02d2cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" input
+			(at 207.01 60.96 270)
+			(uuid "96f83058-9386-4955-86e3-bbe7ac2cebf7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MISO" input
+			(at 179.07 35.56 180)
+			(uuid "6e926baa-9d15-46c9-ad92-f83be7b37657")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOSI" input
+			(at 179.07 31.75 180)
+			(uuid "ab683c52-9045-4f6d-a847-adc1e239a577")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NSS" input
+			(at 179.07 41.91 180)
+			(uuid "be50c6fc-c719-4bf9-a85d-8d9e1d362e86")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCLK" input
+			(at 179.07 39.37 180)
+			(uuid "22733d39-0247-4eec-b292-36b48303b74b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "mcu and pi board"
+				(path "/b20a486a-db1b-4621-abfe-a5d205c676b3"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

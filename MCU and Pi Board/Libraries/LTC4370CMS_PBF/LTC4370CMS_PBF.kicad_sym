@@ -1,0 +1,162 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "LTC4370CMS_PBF" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at 30.8787 9.13135 0.0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "LTC4370CMS_PBF" (id 1) (at 30.2237 6.58362 0.0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "LTC4370CMS_PBF:MSOP-16_MS" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "VENDOR" "Linear Technology" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER_PART_NUMBER" "ltc4370cms#pbf" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "LTC4370CMS_PBF_0_0"
+      (polyline
+        (pts (xy 7.62 5.08) (xy 7.62 -22.86)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 7.62 -22.86) (xy 63.5 -22.86)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 63.5 -22.86) (xy 63.5 5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 63.5 5.08) (xy 7.62 5.08)) (stroke (width 0.1524))
+      )
+      (pin input line (at 0.0 0.0 0) (length 7.62)
+        (name "*EN2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 0.0 -2.54 0) (length 7.62)
+        (name "RANGE"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 0.0 -5.08 0) (length 7.62)
+        (name "COMP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 0.0 -7.62 0) (length 7.62)
+        (name "VIN2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 0.0 -10.16 0) (length 7.62)
+        (name "GATE2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 0.0 -12.7 0) (length 7.62)
+        (name "CPO2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 0.0 -15.24 0) (length 7.62)
+        (name "OUT2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 0.0 -17.78 0) (length 7.62)
+        (name "FETON2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 71.12 -17.78 180.0) (length 7.62)
+        (name "FETON1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 71.12 -15.24 180.0) (length 7.62)
+        (name "OUT1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 71.12 -12.7 180.0) (length 7.62)
+        (name "CPO1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 71.12 -10.16 180.0) (length 7.62)
+        (name "GATE1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 71.12 -7.62 180.0) (length 7.62)
+        (name "VIN1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 71.12 -5.08 180.0) (length 7.62)
+        (name "VCC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "14"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 71.12 -2.54 180.0) (length 7.62)
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "15"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 71.12 0.0 180.0) (length 7.62)
+        (name "*EN1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "16"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

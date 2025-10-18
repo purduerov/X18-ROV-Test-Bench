@@ -1,4 +1,4 @@
-25613378784999032
+25616897130033797
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102662,6 +102662,13 @@ COMTECH_C-OBD-II-16M
 16
 16
 custom
+LEM_HO150-NP
+
+
+0
+13
+13
+custom
 M0611RS-08-GB
 
 
@@ -102682,6 +102689,13 @@ USB C Type-C Receptacle SMD
 0
 20
 17
+custom
+logo
+
+
+0
+0
+0
 power_symbols
 796636-6
 

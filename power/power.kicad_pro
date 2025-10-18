@@ -586,12 +586,54 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -639,6 +681,18 @@
     [
       "b0c2e2dc-8d32-4c25-bbb8-23ea6c1827ee",
       "Root"
+    ],
+    [
+      "3819ea24-447c-453c-b531-3ccb5dd8b0de",
+      "48-12"
+    ],
+    [
+      "2c41cbd3-dc76-4fe6-9843-34b978491b75",
+      "12-5"
+    ],
+    [
+      "83c98fcb-0a99-4cdd-91d7-38486fdf2804",
+      "STM"
     ]
   ],
   "text_variables": {}

@@ -634,6 +634,10 @@
     [
       "cf9b13c4-ce92-4bbb-82dc-82851d7b76da",
       "servo and esc"
+    ],
+    [
+      "4dcaefb5-a695-4167-8329-a8d078427477",
+      "servo power"
     ]
   ],
   "text_variables": {}

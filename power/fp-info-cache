@@ -1,4 +1,4 @@
-25616897130033797
+25618658308253899
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102672,6 +102672,13 @@ custom
 M0611RS-08-GB
 
 
+0
+10
+10
+custom
+TPS56A37RPAR
+
+TPS56A37RPAR 
 0
 10
 10

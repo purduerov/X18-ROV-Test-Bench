@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,20 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|151445000|83235000|8cc7925f-096c-47b4-9017-a03cb829ea75|b7b834a1-b1eb-483c-aab6-5a5cf71bebb5",
+          ""
+        ],
+        [
+          "silk_edge_clearance|265750000|138580000|878c1289-1c0f-4254-9969-7cc68ae51c94|d3f942de-3774-4062-80ed-38e3ecc09445",
+          ""
+        ],
+        [
+          "silk_edge_clearance|265750000|53820000|878c1289-1c0f-4254-9969-7cc68ae51c94|2e141c82-ddcd-4f1d-a63e-3aba2b710146",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -473,7 +486,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "power_symbols"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {

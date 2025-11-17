@@ -2960,7 +2960,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 110.49) (xy 142.24 111.76)
+			(xy 142.24 110.49) (xy 142.24 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3090,7 +3090,7 @@
 	)
 	(global_label "5V_PG"
 		(shape input)
-		(at 142.24 111.76 270)
+		(at 142.24 114.3 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3100,7 +3100,7 @@
 		)
 		(uuid "2efb132e-a972-4d32-8c4d-e02b37a559f1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.24 120.5509 90)
+			(at 142.24 123.0909 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3153,7 +3153,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "11ebeeb6-a75d-4eb4-a55d-5945156ccc97")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR032"
 			(at 251.46 82.55 0)
 			(effects
 				(font
@@ -3203,7 +3203,7 @@
 		(instances
 			(project "power"
 				(path "/b0c2e2dc-8d32-4c25-bbb8-23ea6c1827ee/2c41cbd3-dc76-4fe6-9843-34b978491b75"
-					(reference "#PWR031")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -3218,7 +3218,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1849b250-3386-4163-982e-5385c97bc326")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR033"
 			(at 43.18 83.82 0)
 			(effects
 				(font
@@ -3268,7 +3268,7 @@
 		(instances
 			(project ""
 				(path "/b0c2e2dc-8d32-4c25-bbb8-23ea6c1827ee/2c41cbd3-dc76-4fe6-9843-34b978491b75"
-					(reference "#PWR032")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -3320,6 +3320,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 181.61 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2762594"
+			(at 181.61 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A226MO7JZNC"
 			(at 181.61 101.6 0)
 			(effects
 				(font
@@ -3389,6 +3407,24 @@
 		)
 		(property "Description" "Hall Effect Current Transducer, 15A, Unipolar, 5V, THT"
 			(at 234.95 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 234.95 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HO 15-NP-0000"
+			(at 234.95 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3498,6 +3534,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C106222"
+			(at 86.36 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB223"
+			(at 86.36 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "352e7ecc-ec72-4b14-aa7b-f05e85769777")
 		)
@@ -3522,7 +3576,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2dfc6342-71ce-418e-b31d-f5d3fe168483")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR038"
 			(at 186.69 134.62 0)
 			(effects
 				(font
@@ -3572,7 +3626,7 @@
 		(instances
 			(project "power"
 				(path "/b0c2e2dc-8d32-4c25-bbb8-23ea6c1827ee/2c41cbd3-dc76-4fe6-9843-34b978491b75"
-					(reference "#PWR037")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -3625,6 +3679,24 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 220.98 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 220.98 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1002T5E"
 			(at 220.98 104.14 0)
 			(effects
 				(font
@@ -3702,6 +3774,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 241.935 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "-"
+			(at 241.935 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b92c118b-9f14-4472-b125-3feaeb63990e")
 		)
@@ -3724,7 +3814,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4caddcfd-ff23-45a3-9966-c6013a1da9ce")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR034"
 			(at 213.36 97.79 0)
 			(effects
 				(font
@@ -3774,7 +3864,7 @@
 		(instances
 			(project "power"
 				(path "/b0c2e2dc-8d32-4c25-bbb8-23ea6c1827ee/2c41cbd3-dc76-4fe6-9843-34b978491b75"
-					(reference "#PWR033")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -3828,6 +3918,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 162.56 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 162.56 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1002T5E"
 			(at 162.56 110.49 0)
 			(effects
 				(font
@@ -3906,6 +4014,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 233.68 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "-"
+			(at 233.68 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ea2b6065-cea9-4de7-80e3-9790f6fdec52")
 		)
@@ -3937,7 +4063,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10uF 2.818mOhm"
+		(property "Value" "10uF"
 			(at 53.34 106.6799 90)
 			(effects
 				(font
@@ -3965,6 +4091,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 49.53 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C96446"
+			(at 49.53 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A106MA8NRNC"
 			(at 49.53 105.41 0)
 			(effects
 				(font
@@ -4043,6 +4187,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 112.395 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TPS56A37RPAR"
+			(at 112.395 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
 			(uuid "e8095969-e534-482a-a7c2-6ac944ccc3fe")
 		)
@@ -4092,7 +4254,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78fdf8a1-9804-4ee1-b0d2-c254800c4be7")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR035"
 			(at 220.98 97.79 0)
 			(effects
 				(font
@@ -4142,7 +4304,7 @@
 		(instances
 			(project "power"
 				(path "/b0c2e2dc-8d32-4c25-bbb8-23ea6c1827ee/2c41cbd3-dc76-4fe6-9843-34b978491b75"
-					(reference "#PWR034")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -4204,6 +4366,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25803"
+			(at 133.35 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1003T5E"
+			(at 133.35 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "89a9dcb7-57af-468c-ac98-0fb174604683")
 		)
@@ -4237,7 +4417,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10uF 2.818mOhm"
+		(property "Value" "10uF"
 			(at 38.1 106.68 90)
 			(effects
 				(font
@@ -4265,6 +4445,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 43.18 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C96446"
+			(at 43.18 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A106MA8NRNC"
 			(at 43.18 105.41 0)
 			(effects
 				(font
@@ -4342,6 +4540,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C107038"
+			(at 156.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603JRNPO9BN151"
+			(at 156.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c8f33cb3-9ed8-4004-86ff-a9d759393f7c")
 		)
@@ -4376,7 +4592,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uF 5mOhm"
+		(property "Value" "1uF"
 			(at 66.04 106.6799 90)
 			(effects
 				(font
@@ -4404,6 +4620,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 62.23 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 62.23 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
 			(at 62.23 105.41 0)
 			(effects
 				(font
@@ -4482,6 +4716,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 148.59 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "-"
+			(at 148.59 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6fd69517-c71f-462a-8f05-4b5ca269b628")
 		)
@@ -4513,7 +4765,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF 1mOhm"
+		(property "Value" "0.1uF"
 			(at 138.4299 78.74 0)
 			(effects
 				(font
@@ -4549,6 +4801,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 137.16 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 137.16 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a88e9b0a-ab30-4dab-973c-7f9b61b9cb4b")
 		)
@@ -4574,7 +4844,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b27510ee-8504-482a-b841-fd376c049d63")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR037"
 			(at 43.18 134.62 0)
 			(effects
 				(font
@@ -4624,7 +4894,7 @@
 		(instances
 			(project "power"
 				(path "/b0c2e2dc-8d32-4c25-bbb8-23ea6c1827ee/2c41cbd3-dc76-4fe6-9843-34b978491b75"
-					(reference "#PWR036")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -4676,6 +4946,24 @@
 		)
 		(property "Description" "Inductor"
 			(at 152.4 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 152.4 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "7443845030033"
+			(at 152.4 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4754,6 +5042,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23198"
+			(at 92.71 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF5232T5E"
+			(at 92.71 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4eae73db-130a-4574-a7b3-c63f4d3abbb1")
 		)
@@ -4778,7 +5084,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c1e9258c-9b37-4534-a1d1-2e6d39f39b3b")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR036"
 			(at 250.19 116.84 0)
 			(effects
 				(font
@@ -4828,7 +5134,7 @@
 		(instances
 			(project "power"
 				(path "/b0c2e2dc-8d32-4c25-bbb8-23ea6c1827ee/2c41cbd3-dc76-4fe6-9843-34b978491b75"
-					(reference "#PWR035")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -4881,6 +5187,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 186.69 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2762594"
+			(at 186.69 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A226MO7JZNC"
 			(at 186.69 101.6 0)
 			(effects
 				(font
@@ -4952,6 +5276,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 162.56 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14890"
+			(at 162.56 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF7322T5E"
 			(at 162.56 92.71 0)
 			(effects
 				(font

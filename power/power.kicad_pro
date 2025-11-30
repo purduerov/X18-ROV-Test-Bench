@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|151445000|83235000|8cc7925f-096c-47b4-9017-a03cb829ea75|b7b834a1-b1eb-483c-aab6-5a5cf71bebb5",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|209062500|95400000|abe5cfc8-e98d-426c-8a7f-8eb517c2d2c3|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_edge_clearance|265750000|138580000|878c1289-1c0f-4254-9969-7cc68ae51c94|d3f942de-3774-4062-80ed-38e3ecc09445",
+          ""
+        ],
+        [
+          "silk_edge_clearance|265750000|53820000|878c1289-1c0f-4254-9969-7cc68ae51c94|2e141c82-ddcd-4f1d-a63e-3aba2b710146",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -473,7 +490,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "power_symbols"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -513,7 +532,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "manufacturing/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -546,33 +565,27 @@
           "show": true
         },
         {
-          "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
-        },
-        {
           "group_by": true,
           "label": "Value",
           "name": "Value",
           "show": true
         },
         {
-          "group_by": true,
-          "label": "DNP",
-          "name": "${DNP}",
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
           "show": true
         },
         {
-          "group_by": true,
-          "label": "Exclude from BOM",
-          "name": "${EXCLUDE_FROM_BOM}",
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
           "show": true
         },
         {
-          "group_by": true,
-          "label": "Exclude from Board",
-          "name": "${EXCLUDE_FROM_BOARD}",
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
           "show": true
         },
         {
@@ -583,38 +596,26 @@
         },
         {
           "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
+          "label": "DNP",
+          "name": "${DNP}",
           "show": true
         },
         {
           "group_by": false,
-          "label": "MAXIMUM_PACKAGE_HEIGHT",
-          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
           "show": false
         },
         {
           "group_by": false,
-          "label": "PARTREV",
-          "name": "PARTREV",
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
           "show": false
         },
         {
           "group_by": false,
-          "label": "STANDARD",
-          "name": "STANDARD",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MANUFACTURER",
-          "name": "MANUFACTURER",
+          "label": "Datasheet",
+          "name": "Datasheet",
           "show": false
         },
         {
@@ -635,7 +636,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "LCSC"
     },
     "connection_grid_size": 50.0,
     "drawing": {

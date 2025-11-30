@@ -1,4 +1,4 @@
-25618658308253899
+25622188050779673
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102662,23 +102662,9 @@ COMTECH_C-OBD-II-16M
 16
 16
 custom
-LEM_HO150-NP
-
-
-0
-13
-13
-custom
 M0611RS-08-GB
 
 
-0
-10
-10
-custom
-TPS56A37RPAR
-
-TPS56A37RPAR 
 0
 10
 10
@@ -102718,6 +102704,13 @@ BMR4912510/871
 15
 15
 power_symbols
+LEM_HO150-NP
+
+
+0
+13
+13
+power_symbols
 RPM5.0-6.0
 
 RPM5.0-6.0 
@@ -102731,3 +102724,24 @@ SAMTEC_ET60T-D04-3-08-D04-X-R1-S
 0
 104
 104
+power_symbols
+TPS56A37RPAR
+
+TPS56A37RPAR 
+0
+13
+10
+power_symbols
+TS04-66-70-BK-160-SMT
+
+
+0
+4
+2
+power_symbols
+WE-MXGI_5030
+
+
+0
+2
+2

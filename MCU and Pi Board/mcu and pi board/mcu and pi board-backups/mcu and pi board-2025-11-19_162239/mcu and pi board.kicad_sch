@@ -1,0 +1,1298 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b20a486a-db1b-4621-abfe-a5d205c676b3")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:R_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 207.01 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd1e9d6d-df5b-4017-a454-54a9cea0207a")
+	)
+	(junction
+		(at 199.39 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd0a2e69-cc4b-4ede-9979-35463ff0d351")
+	)
+	(wire
+		(pts
+			(xy 93.98 60.96) (xy 93.98 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03860ec9-ea48-42f6-86ea-d27918e112a2")
+	)
+	(wire
+		(pts
+			(xy 99.06 60.96) (xy 99.06 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06e552e4-d64d-4180-a2e4-568fdd736991")
+	)
+	(wire
+		(pts
+			(xy 163.83 44.45) (xy 179.07 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1def8226-bf8f-4a5c-9175-7dde173a7fa3")
+	)
+	(wire
+		(pts
+			(xy 163.83 49.53) (xy 177.8 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fa5d151-70b2-4367-95bc-8c1c39ea0080")
+	)
+	(wire
+		(pts
+			(xy 226.06 66.04) (xy 207.01 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23a597be-d8be-4ccc-866a-109d9a3a7ce2")
+	)
+	(wire
+		(pts
+			(xy 111.76 60.96) (xy 111.76 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26e82a15-352e-46ee-a17f-9827f931857d")
+	)
+	(wire
+		(pts
+			(xy 58.42 60.96) (xy 58.42 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d34087b-03c4-4e5b-ac67-ac376195164f")
+	)
+	(wire
+		(pts
+			(xy 156.21 60.96) (xy 156.21 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e82f47d-d30f-4c77-94c1-3accb062d4ca")
+	)
+	(wire
+		(pts
+			(xy 173.99 53.34) (xy 173.99 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32299916-4b7a-4d17-88b8-59c355698fc8")
+	)
+	(wire
+		(pts
+			(xy 68.58 60.96) (xy 68.58 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "327ffb9f-f0f8-4e50-a2d2-5627019a65e2")
+	)
+	(wire
+		(pts
+			(xy 199.39 60.96) (xy 199.39 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ab7ceb0-867d-49d7-86cd-ecdc1842ca03")
+	)
+	(wire
+		(pts
+			(xy 104.14 60.96) (xy 104.14 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b17f31b-8a1e-4a83-a098-e1fa734107d8")
+	)
+	(wire
+		(pts
+			(xy 163.83 41.91) (xy 179.07 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b8c660c-8322-4187-b17c-40b0f2471fc7")
+	)
+	(wire
+		(pts
+			(xy 115.57 60.96) (xy 115.57 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62eaeb27-d244-46b3-a66f-ec6b3dc8ed83")
+	)
+	(wire
+		(pts
+			(xy 173.99 66.04) (xy 207.01 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63c5dbf2-ebf3-4f5e-8e61-cc1e3e08cd4c")
+	)
+	(wire
+		(pts
+			(xy 78.74 60.96) (xy 78.74 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67320d57-64e9-444f-94d9-c5972b77fbae")
+	)
+	(wire
+		(pts
+			(xy 207.01 66.04) (xy 207.01 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72356e21-834d-4758-beec-d0cf242bb11b")
+	)
+	(wire
+		(pts
+			(xy 207.01 60.96) (xy 207.01 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "756a5e16-746d-458b-9af8-4d329b68fb1e")
+	)
+	(wire
+		(pts
+			(xy 163.83 35.56) (xy 179.07 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c2231a1-b396-4aff-a7e9-c8f25ba5a3e6")
+	)
+	(wire
+		(pts
+			(xy 163.83 33.02) (xy 179.07 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b44eeb3-3f27-4648-b5c6-6efb8e6c2a20")
+	)
+	(wire
+		(pts
+			(xy 107.95 60.96) (xy 107.95 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91833b37-7473-4484-a5bd-b4de4336b791")
+	)
+	(wire
+		(pts
+			(xy 177.8 49.53) (xy 177.8 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b335724d-c5e1-4195-bf19-9a05cfee1f8c")
+	)
+	(wire
+		(pts
+			(xy 88.9 60.96) (xy 88.9 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7d3c563-4817-4fe3-b85f-8f8f4dbd3cc0")
+	)
+	(wire
+		(pts
+			(xy 199.39 71.12) (xy 199.39 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc8d216a-a7be-434a-939b-9e5e909d4675")
+	)
+	(wire
+		(pts
+			(xy 119.38 60.96) (xy 119.38 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0ff84ed-ba06-4f9f-971d-578a9d68ddbd")
+	)
+	(wire
+		(pts
+			(xy 163.83 53.34) (xy 173.99 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9bebb76-4728-4066-b0a7-0869b5f604fa")
+	)
+	(wire
+		(pts
+			(xy 226.06 71.12) (xy 199.39 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0701747-0a65-4826-af20-9b9439eee09d")
+	)
+	(wire
+		(pts
+			(xy 163.83 39.37) (xy 179.07 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e96fe71e-8fea-4fb8-b088-35cef0ee6886")
+	)
+	(wire
+		(pts
+			(xy 156.21 71.12) (xy 156.21 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1e3c885-d8e8-4daf-a22c-1ac42ba3e402")
+	)
+	(wire
+		(pts
+			(xy 73.66 60.96) (xy 73.66 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3609a12-8f8f-4f38-a40b-6960bb951e51")
+	)
+	(wire
+		(pts
+			(xy 63.5 60.96) (xy 63.5 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4545ebb-a11d-4be5-a467-36ec476333a2")
+	)
+	(wire
+		(pts
+			(xy 177.8 71.12) (xy 199.39 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9d33968-431b-4cab-9f35-a40d2e1acd3b")
+	)
+	(wire
+		(pts
+			(xy 83.82 60.96) (xy 83.82 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fae119b9-de79-4306-b5c1-1e4d25b1efe9")
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 156.21 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2079ada-1bc9-4afe-bb88-244a48c1405d")
+		(property "Reference" "R1"
+			(at 158.75 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 158.75 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 157.226 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 156.21 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "474c5640-c07d-4c13-ba94-75c77c48d932")
+		)
+		(pin "2"
+			(uuid "08eb733c-efa0-4f3f-b5ce-cee707b91994")
+		)
+		(instances
+			(project ""
+				(path "/b20a486a-db1b-4621-abfe-a5d205c676b3"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 53.34 27.94)
+		(size 110.49 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "51029924-342a-47f7-95d8-8f14ebe6a876")
+		(property "Sheetname" "MCU"
+			(at 53.34 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stm32.kicad_sch"
+			(at 53.34 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MISO" input
+			(at 163.83 35.56 0)
+			(uuid "bbfc4b90-ef9c-4747-87f1-567b8741256c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOSI" input
+			(at 163.83 33.02 0)
+			(uuid "c26f6de2-c245-49d1-8025-f260a1daf536")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCLK" input
+			(at 163.83 39.37 0)
+			(uuid "a325b6b8-cf6c-4bed-bc68-ff64711704a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESC_Telemetry" input
+			(at 156.21 60.96 270)
+			(uuid "14a4132f-5569-4084-b26f-8d7da2b708c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" input
+			(at 163.83 49.53 0)
+			(uuid "84904ec3-89c7-4fd7-a383-baab16a16df5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" input
+			(at 163.83 53.34 0)
+			(uuid "336d1e72-9841-488f-bda3-3803c863b072")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RP2350B_ESC_PWM_0" input
+			(at 58.42 60.96 270)
+			(uuid "2333dcd5-c37a-45f4-9f36-2d5b06668c5b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RP2350B_ESC_PWM_1" input
+			(at 63.5 60.96 270)
+			(uuid "8863b3b8-c57e-4c0c-871a-785e48edc5d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RP2350B_ESC_PWM_2" input
+			(at 68.58 60.96 270)
+			(uuid "d451e550-7227-44e5-92ff-ec2825469484")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RP2350B_ESC_PWM_3" input
+			(at 73.66 60.96 270)
+			(uuid "a797226c-04bc-41ce-a48a-9f06c3d4aea3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RP2350B_SERVO_PWM_0" input
+			(at 78.74 60.96 270)
+			(uuid "55e27dcd-4fef-46cc-961e-1dba6343552e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RP2350B_SERVO_PWM_1" input
+			(at 83.82 60.96 270)
+			(uuid "4b984406-63a2-438e-af4f-20d8a7aba353")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RP2350B_SERVO_PWM_2" input
+			(at 88.9 60.96 270)
+			(uuid "c69ef1ee-23cd-4413-81c9-ba833173d265")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STM_ESC_PWM_0" input
+			(at 93.98 60.96 270)
+			(uuid "578c46a6-6b20-4adf-a6b3-9122c15e5628")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STM_ESC_PWM_1" input
+			(at 99.06 60.96 270)
+			(uuid "d504f778-e4d3-4af9-a856-706339a2bcea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STM_ESC_PWM_2" input
+			(at 104.14 60.96 270)
+			(uuid "aa29ef06-6ca2-43cc-8758-cbfc12013034")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STM_ESC_PWM_3" input
+			(at 107.95 60.96 270)
+			(uuid "08e71dca-f67a-40ca-ae77-7d4ac8aa04a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STM_SERVO_PWM_0" input
+			(at 111.76 60.96 270)
+			(uuid "0fbe1995-adfe-4d31-957a-82135abec07f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STM_SERVO_PWM_1" input
+			(at 115.57 60.96 270)
+			(uuid "2f0a10a6-9028-4989-b22f-f53c7e2d8429")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STM_SERVO_PWM_2" input
+			(at 119.38 60.96 270)
+			(uuid "3ad4f99e-a380-44da-88ce-a74d5be0d932")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RP2350B_CS" input
+			(at 163.83 41.91 0)
+			(uuid "7fbeaf6e-d70f-4b3f-855a-78201652aac6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STM_CS" input
+			(at 163.83 44.45 0)
+			(uuid "4908641e-7765-45eb-a28d-39097a58260e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "mcu and pi board"
+				(path "/b20a486a-db1b-4621-abfe-a5d205c676b3"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 181.61 77.47)
+		(size 36.83 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "52c764d6-917f-4b2b-b6f8-6c902b5ee893")
+		(property "Sheetname" "sensors"
+			(at 181.61 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 181.61 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCL" input
+			(at 199.39 77.47 90)
+			(uuid "1482589d-f342-4b55-9bd7-dc77505ab4f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" input
+			(at 207.01 77.47 90)
+			(uuid "1d97a216-142a-41d6-8744-cc52e4c7d8ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "mcu and pi board"
+				(path "/b20a486a-db1b-4621-abfe-a5d205c676b3"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 226.06 46.99)
+		(size 35.56 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bef0208e-671a-46f7-958e-767cd5c13c2b")
+		(property "Sheetname" "power"
+			(at 226.06 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 226.06 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCL" input
+			(at 226.06 71.12 180)
+			(uuid "f0988bf2-f3dd-431f-83fc-d4975a5e7b1c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" input
+			(at 226.06 66.04 180)
+			(uuid "5949e2c1-47b7-4098-b8cd-ccc434ba3fa9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "mcu and pi board"
+				(path "/b20a486a-db1b-4621-abfe-a5d205c676b3"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 53.34 73.66)
+		(size 114.3 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cf9b13c4-ce92-4bbb-82dc-82851d7b76da")
+		(property "Sheetname" "servo and esc"
+			(at 52.6284 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "servo_esc.kicad_sch"
+			(at 168.2246 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ESC_Telemetry" input
+			(at 156.21 73.66 90)
+			(uuid "9c895695-8de3-4e8b-805d-6e0538bee768")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RP2350B_ESC_PWM_0" input
+			(at 58.42 73.66 90)
+			(uuid "581c504a-5f59-40e0-afa6-28afc62e6efa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RP2350B_ESC_PWM_1" input
+			(at 63.5 73.66 90)
+			(uuid "59ef7bf6-44f3-4341-9e9a-d4b7287cc210")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RP2350B_ESC_PWM_2" input
+			(at 68.58 73.66 90)
+			(uuid "08db7ec1-6442-4da9-abf7-6a81d96be1d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RP2350B_ESC_PWM_3" input
+			(at 73.66 73.66 90)
+			(uuid "dec6b78b-f245-4e58-b495-54c0c4db4606")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RP2350B_SERVO_PWM_0" input
+			(at 78.74 73.66 90)
+			(uuid "bc5bfa54-bee6-49cc-95b8-52b07e7c7107")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RP2350B_SERVO_PWM_1" input
+			(at 83.82 73.66 90)
+			(uuid "ebc8ed1d-5ab4-4004-b200-b9ef82e03ec5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RP2350B_SERVO_PWM_2" input
+			(at 88.9 73.66 90)
+			(uuid "2b41fd6c-ea9d-427e-b576-7e1c9d47e7c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STM_ESC_PWM_0" input
+			(at 93.98 73.66 90)
+			(uuid "eb57f9ff-e6aa-435c-ac86-cd74e7ae9c40")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STM_ESC_PWM_1" input
+			(at 99.06 73.66 90)
+			(uuid "1ff7a370-e32d-4e43-b868-ffe631f7a25d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STM_ESC_PWM_2" input
+			(at 104.14 73.66 90)
+			(uuid "f7506bf5-90d9-40ce-902b-c1fa46821e26")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STM_ESC_PWM_3" input
+			(at 107.95 73.66 90)
+			(uuid "86001faf-0246-42fa-88bf-bc327124e9bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STM_SERVO_PWM_0" input
+			(at 111.76 73.66 90)
+			(uuid "98453afc-b21a-4b6b-90bc-7926f1ce8f62")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STM_SERVO_PWM_1" input
+			(at 115.57 73.66 90)
+			(uuid "ed394fc6-8044-46fd-ac22-bed3e7fc3c7e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STM_SERVO_PWM_2" input
+			(at 119.38 73.66 90)
+			(uuid "da6b0efb-ec81-4f71-8f44-5dfde6475f9b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "mcu and pi board"
+				(path "/b20a486a-db1b-4621-abfe-a5d205c676b3"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.07 29.21)
+		(size 43.18 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dda479c6-78f4-4e1c-82b6-b799f08d03a6")
+		(property "Sheetname" "pi"
+			(at 179.07 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pi.kicad_sch"
+			(at 179.07 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 179.07 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "SCL" input
+			(at 199.39 60.96 270)
+			(uuid "7f0538cf-14d6-496d-b68b-d72abe02d2cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" input
+			(at 207.01 60.96 270)
+			(uuid "96f83058-9386-4955-86e3-bbe7ac2cebf7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MISO" input
+			(at 179.07 35.56 180)
+			(uuid "6e926baa-9d15-46c9-ad92-f83be7b37657")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOSI" input
+			(at 179.07 33.02 180)
+			(uuid "ab683c52-9045-4f6d-a847-adc1e239a577")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCLK" input
+			(at 179.07 39.37 180)
+			(uuid "22733d39-0247-4eec-b292-36b48303b74b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RP2350B_CS" input
+			(at 179.07 41.91 180)
+			(uuid "997a6703-24b6-4875-bc51-8606e4c9f429")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STM_CS" input
+			(at 179.07 44.45 180)
+			(uuid "e69852f4-4796-424c-9c3f-a7f24485e0e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "mcu and pi board"
+				(path "/b20a486a-db1b-4621-abfe-a5d205c676b3"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

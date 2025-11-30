@@ -1,4 +1,4 @@
-25604615313580649
+25634589595597834
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102648,6 +102648,41 @@ Varistor VF
 2
 2
 custom library
+CONN_BM04B-GHS-TBT_JST
+
+BM04B-GHS-TBT 
+0
+6
+6
+custom library
+CUI_PJ-002A
+
+
+0
+3
+3
+custom library
+CUI_TB006-508-03BE
+
+
+0
+3
+3
+custom library
+DRC10_2P4X1P65
+
+TPS40305DRCR 
+0
+10
+10
+custom library
+ESC Adapter - Backplane
+
+
+0
+30
+30
+custom library
 IND_XAL6030-102MEC
 
 
@@ -102662,6 +102697,20 @@ STM32F091CCT6
 48
 48
 custom library
+MODULE_RASPBERRY_PI_4B_4GB
+
+
+0
+48
+48
+custom library
+MOLEX_430450428
+
+
+0
+4
+4
+custom library
 MOSFET_CSD17577Q3A
 
 
@@ -102669,9 +102718,79 @@ MOSFET_CSD17577Q3A
 12
 12
 custom library
+MP04A
+
+LM3940IMPX-3.3/NOPB 
+0
+3
+3
+custom library
+MSOP-16_MS
+
+
+0
+16
+16
+custom library
 PWM, 12V, GND JST Connector
 
 
 0
 30
 9
+custom library
+SAMTEC_ET60S-D04-3-08-D04-X-R1-S
+
+
+0
+104
+104
+custom library
+SAMTEC_ET60S-D04-3-08-D04-X-V1-S
+
+
+0
+88
+88
+custom library
+SAMTEC_ET60T-D04-0-00-D04-X-R1-S
+
+
+0
+80
+80
+custom library
+SAMTEC_IPBT-105-H1-T-D-GP
+
+
+0
+10
+10
+custom library
+SOIC-16_ONS
+
+MC74HC157ADR2G 
+0
+16
+16
+custom library
+SW_TS04-66-70-BK-160-SMT
+
+
+0
+4
+4
+custom library
+TRANS_BSC010N04LS6ATMA1
+
+
+0
+3
+3
+custom library
+TRANS_CSD18543Q3A
+
+
+0
+12
+12

@@ -569,6 +569,54 @@
       {
         "netclass": "Signals",
         "pattern": "/MCU/GPIO14"
+      },
+      {
+        "netclass": "Default",
+        "pattern": ""
+      },
+      {
+        "netclass": "Signals",
+        "pattern": "/MCU/SCL_BREAKOUT"
+      },
+      {
+        "netclass": "Signals",
+        "pattern": "/MCU/SDA_BREAKOUT"
+      },
+      {
+        "netclass": "PWM",
+        "pattern": "/MCU/PA0"
+      },
+      {
+        "netclass": "PWM",
+        "pattern": "/MCU/PA1"
+      },
+      {
+        "netclass": "PWM",
+        "pattern": "/MCU/PA2"
+      },
+      {
+        "netclass": "PWM",
+        "pattern": "/MCU/PA3"
+      },
+      {
+        "netclass": "PWM",
+        "pattern": "/MCU/PA8"
+      },
+      {
+        "netclass": "PWM",
+        "pattern": "/MCU/PA9"
+      },
+      {
+        "netclass": "PWM",
+        "pattern": "/MCU/PA10"
+      },
+      {
+        "netclass": "Signals",
+        "pattern": "/MCU/SWDIO "
+      },
+      {
+        "netclass": "Signals",
+        "pattern": "/MCU/SWCLK "
       }
     ]
   },

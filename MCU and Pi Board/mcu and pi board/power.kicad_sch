@@ -6776,6 +6776,12 @@
 		(uuid "5bf954e0-b5ee-4cb2-a87f-ec95f9615f94")
 	)
 	(junction
+		(at 129.54 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c2f0e1b-a512-4ef7-817e-a16223b4e7f9")
+	)
+	(junction
 		(at 55.88 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6996,12 +7002,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ee1d2a1-5ee0-4f13-97b4-31ef51ec31ca")
-	)
-	(junction
-		(at 154.94 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "906a1671-5c56-4f08-92a3-38f7867b61c3")
 	)
 	(junction
 		(at 30.48 36.83)
@@ -7226,6 +7226,12 @@
 		(uuid "bcf2957c-28fd-4714-b984-af52f0d5d7dc")
 	)
 	(junction
+		(at 154.94 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be4668bf-88d2-4d8e-bd41-42b789e3214d")
+	)
+	(junction
 		(at 55.88 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7428,12 +7434,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec44ddaa-d692-41b8-bfdb-130360e66db0")
-	)
-	(junction
-		(at 129.54 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eea14a87-7a24-4a7f-8639-51229cfb7117")
 	)
 	(junction
 		(at 154.94 116.84)
@@ -10739,73 +10739,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 129.54 147.32 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "25e76d6d-323c-4101-8a6d-ce97aec21e25")
-		(property "Reference" "#PWR0111"
-			(at 133.35 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 125.73 147.3199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 129.54 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c19aff4a-5d9d-48d8-9f63-297fb77b8274")
-		)
-		(instances
-			(project ""
-				(path "/b20a486a-db1b-4621-abfe-a5d205c676b3/bef0208e-671a-46f7-958e-767cd5c13c2b"
-					(reference "#PWR0111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 77.47 93.98 90)
 		(unit 1)
@@ -10879,6 +10812,73 @@
 			(project ""
 				(path "/b20a486a-db1b-4621-abfe-a5d205c676b3/bef0208e-671a-46f7-958e-767cd5c13c2b"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 154.94 147.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a329b28-5254-4ede-b338-7b62d69a0e6d")
+		(property "Reference" "#PWR0114"
+			(at 151.13 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 158.75 147.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 154.94 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7a48f69-bf98-4df5-abd7-2371522ff3c4")
+		)
+		(instances
+			(project "mcu and pi board"
+				(path "/b20a486a-db1b-4621-abfe-a5d205c676b3/bef0208e-671a-46f7-958e-767cd5c13c2b"
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -11942,73 +11942,6 @@
 			(project "mcu and pi board"
 				(path "/b20a486a-db1b-4621-abfe-a5d205c676b3/bef0208e-671a-46f7-958e-767cd5c13c2b"
 					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 154.94 147.32 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "634fcf88-b9b2-49c9-a9bf-cc1724157b22")
-		(property "Reference" "#PWR0114"
-			(at 161.29 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 158.75 147.3199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "31c47388-2a8a-4faa-83c0-3b9dbed572a7")
-		)
-		(instances
-			(project ""
-				(path "/b20a486a-db1b-4621-abfe-a5d205c676b3/bef0208e-671a-46f7-958e-767cd5c13c2b"
-					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -14392,6 +14325,73 @@
 			(project "mcu and pi board"
 				(path "/b20a486a-db1b-4621-abfe-a5d205c676b3/bef0208e-671a-46f7-958e-767cd5c13c2b"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 129.54 147.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9744f143-0a6c-409e-9944-54d83b55aeb0")
+		(property "Reference" "#PWR0111"
+			(at 123.19 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 147.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65a2bdd8-9875-41df-9c5e-685d6241f33b")
+		)
+		(instances
+			(project "mcu and pi board"
+				(path "/b20a486a-db1b-4621-abfe-a5d205c676b3/bef0208e-671a-46f7-958e-767cd5c13c2b"
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)

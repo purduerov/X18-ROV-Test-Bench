@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -62,78 +62,6 @@
         [
           "clearance|239129912|112363650|c9bfd573-4502-4759-99fd-0ec0d345717b|a3d1a06e-db81-43dd-af30-c19c1cc83362",
           "footprint"
-        ],
-        [
-          "solder_mask_bridge|229666750|207218500|c2bda95e-ee92-4947-aed3-fc985b014a9c|0d5077f2-2ca6-4ba6-87b9-707e094485e9",
-          ""
-        ],
-        [
-          "solder_mask_bridge|229666750|208123500|c2bda95e-ee92-4947-aed3-fc985b014a9c|9e3f95ad-47fa-49ed-a73e-46061a651643",
-          ""
-        ],
-        [
-          "solder_mask_bridge|229904000|207218500|3a5dbdd5-d483-4dd7-a340-6042bda3ddc5|c2bda95e-ee92-4947-aed3-fc985b014a9c",
-          ""
-        ],
-        [
-          "solder_mask_bridge|229904000|208123500|3a5dbdd5-d483-4dd7-a340-6042bda3ddc5|c2bda95e-ee92-4947-aed3-fc985b014a9c",
-          ""
-        ],
-        [
-          "solder_mask_bridge|230879000|207671500|3a5dbdd5-d483-4dd7-a340-6042bda3ddc5|c2bda95e-ee92-4947-aed3-fc985b014a9c",
-          ""
-        ],
-        [
-          "solder_mask_bridge|230879000|208810750|c2bda95e-ee92-4947-aed3-fc985b014a9c|54ab904e-f756-46d3-9b95-07e8e26be633",
-          ""
-        ],
-        [
-          "solder_mask_bridge|230879000|208810750|c2bda95e-ee92-4947-aed3-fc985b014a9c|77493cd4-c151-4a08-a95e-8fd23dbcafc8",
-          ""
-        ],
-        [
-          "solder_mask_bridge|231054000|208576500|3a5dbdd5-d483-4dd7-a340-6042bda3ddc5|c2bda95e-ee92-4947-aed3-fc985b014a9c",
-          ""
-        ],
-        [
-          "solder_mask_bridge|236083500|76165195|67762844-9b87-488f-b970-f0605d5492b5|11b71385-bd36-44ff-8f8d-763f4f305a06",
-          ""
-        ],
-        [
-          "solder_mask_bridge|243844000|210978500|504863b8-8232-4847-a48f-eac241e03e67|9a78b938-28bb-432b-955f-0a27d4c2b00a",
-          ""
-        ],
-        [
-          "solder_mask_bridge|243844000|211215750|f3a029bc-9283-4ac5-867a-6b6ccc866967|7daec150-0c30-4b22-be3c-37bcbfb0a6db",
-          ""
-        ],
-        [
-          "solder_mask_bridge|244297000|210003500|504863b8-8232-4847-a48f-eac241e03e67|9a78b938-28bb-432b-955f-0a27d4c2b00a",
-          ""
-        ],
-        [
-          "solder_mask_bridge|244749000|210978500|504863b8-8232-4847-a48f-eac241e03e67|9a78b938-28bb-432b-955f-0a27d4c2b00a",
-          ""
-        ],
-        [
-          "solder_mask_bridge|244749000|211215750|f3a029bc-9283-4ac5-867a-6b6ccc866967|3d61f67f-2955-4d55-af99-b394ddce13a2",
-          ""
-        ],
-        [
-          "solder_mask_bridge|245202000|209828500|504863b8-8232-4847-a48f-eac241e03e67|9a78b938-28bb-432b-955f-0a27d4c2b00a",
-          ""
-        ],
-        [
-          "solder_mask_bridge|245436250|210003500|f3a029bc-9283-4ac5-867a-6b6ccc866967|4b247aa8-2053-418b-a92a-313a88f56699",
-          ""
-        ],
-        [
-          "solder_mask_bridge|245436250|210003500|f3a029bc-9283-4ac5-867a-6b6ccc866967|59eb4d45-6d17-42be-aef8-331a4db44719",
-          ""
-        ],
-        [
-          "starved_thermal|231854000|207218500|472001dd-2b32-454c-94e0-48aa6564e129|fb35e0a4-2804-4c73-8178-abed0c1b5d47|F.Cu",
-          ""
         ]
       ],
       "meta": {
@@ -181,8 +109,8 @@
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "solder_mask_bridge": "warning",
+        "starved_thermal": "warning",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
@@ -265,6 +193,7 @@
       ],
       "track_widths": [
         0.0,
+        0.2,
         0.25,
         0.3,
         0.4,
@@ -705,7 +634,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "outputs/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

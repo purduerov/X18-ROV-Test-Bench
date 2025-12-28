@@ -531,7 +531,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2079ada-1bc9-4afe-bb88-244a48c1405d")
-		(property "Reference" "R4"
+		(property "Reference" "R15"
 			(at 158.75 66.0399 0)
 			(effects
 				(font
@@ -585,7 +585,7 @@
 		(instances
 			(project ""
 				(path "/b20a486a-db1b-4621-abfe-a5d205c676b3"
-					(reference "R4")
+					(reference "R15")
 					(unit 1)
 				)
 			)

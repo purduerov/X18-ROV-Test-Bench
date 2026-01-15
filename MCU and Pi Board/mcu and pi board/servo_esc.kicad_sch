@@ -3625,6 +3625,15 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" "25V"
+			(at 252.73 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0b7b2451-bbfb-4251-855c-fbd1a4185a3a")
 		)
@@ -3695,6 +3704,15 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" "25V"
+			(at 172.72 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fbf4d05a-5e4e-475a-a4b3-86f37da57d59")
 		)
@@ -3757,6 +3775,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 185.42 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "25V"
 			(at 185.42 22.86 0)
 			(effects
 				(font
@@ -5382,6 +5409,15 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" "25V"
+			(at 209.55 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7e2727f1-ed01-444e-b0b5-471efc8a9208")
 		)
@@ -5768,6 +5804,15 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" "25V"
+			(at 226.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d80287a6-c2e6-4dea-b3c2-9755eb75fee4")
 		)
@@ -5897,6 +5942,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 196.85 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "25V"
 			(at 196.85 140.97 0)
 			(effects
 				(font
@@ -6433,6 +6487,15 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" "25V"
+			(at 236.22 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ccafb280-9272-4a26-b0e5-593fd52925fd")
 		)
@@ -6829,6 +6892,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 222.25 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "25V"
 			(at 222.25 25.4 0)
 			(effects
 				(font
@@ -7473,6 +7545,15 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" "25V"
+			(at 265.43 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d715e592-3bab-464b-a14b-d63f85e97752")
 		)
@@ -7670,6 +7751,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 207.01 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "25V"
 			(at 207.01 140.97 0)
 			(effects
 				(font

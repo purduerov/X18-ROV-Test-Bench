@@ -3496,6 +3496,15 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" "10V"
+			(at 245.11 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ef717451-1155-469d-9f92-49540c5b6db1")
 		)
@@ -3789,6 +3798,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 229.87 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "10V"
 			(at 229.87 43.18 0)
 			(effects
 				(font

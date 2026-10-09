@@ -1621,7 +1621,7 @@
 			(uuid "9e3f95ad-47fa-49ed-a73e-46061a651643")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Aman Katyal/Documents/PCB Design/X18-ROV-Test-Bench/MCU and Pi Board/Libraries/CSD17578Q3A/CSD17578Q3A.step"
+		(model "${KIPRJMOD}/MCU and Pi Board/Libraries/CSD17578Q3A/CSD17578Q3A.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2360,6 +2360,11 @@
 				)
 			)
 		)
+	(model "${KIPRJMOD}/Libraries/430450428 (1)/430450428.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
+	)
 		(pad "" np_thru_hole circle
 			(at -6 -3.94 270)
 			(size 1.02 1.02)
@@ -3972,7 +3977,7 @@
 			(uuid "0798455a-264e-43b3-a778-e753dfdee27f")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Aman Katyal/Documents/PCB Design/X18-ROV-Test-Bench/MCU and Pi Board/Libraries/ET60S-D04-3-08-D04-L-R1-S/ET60S-D04-3-08-D04-L-R1-S.stp"
+		(model "${KIPRJMOD}/MCU and Pi Board/Libraries/ET60S-D04-3-08-D04-L-R1-S/ET60S-D04-3-08-D04-L-R1-S.stp"
 			(offset
 				(xyz 0 5.5 4.5)
 			)
@@ -5195,7 +5200,7 @@
 			(uuid "76a628e6-42ca-48bb-b3fa-2971adb1172b")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Aman Katyal/Documents/PCB Design/X18-ROV-Test-Bench/MCU and Pi Board/Libraries/TS04_66_70_BK_160_SMT/TS04-66-70-BK-160-SMT.STEP"
+		(model "${KIPRJMOD}/MCU and Pi Board/Libraries/TS04_66_70_BK_160_SMT/TS04-66-70-BK-160-SMT.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6015,6 +6020,11 @@
 			(layer "F.Fab")
 			(uuid "38adb4a8-7c8b-462f-9f1c-136fa7468f53")
 		)
+	(model "${KIPRJMOD}/Libraries/TB006_508_03BE/TB006-508-03BE.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
+	)
 		(pad "1" thru_hole rect
 			(at 0 0)
 			(size 1.95 1.95)
@@ -8232,7 +8242,7 @@
 			(uuid "3d61f67f-2955-4d55-af99-b394ddce13a2")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Aman Katyal/Documents/PCB Design/X18-ROV-Test-Bench/MCU and Pi Board/Libraries/CSD17578Q3A/CSD17578Q3A.step"
+		(model "${KIPRJMOD}/MCU and Pi Board/Libraries/CSD17578Q3A/CSD17578Q3A.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10070,7 +10080,7 @@
 			(uuid "7653db7d-003d-47b4-aa62-595f9179317d")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Aman Katyal/Documents/PCB Design/X18-ROV-Test-Bench/MCU and Pi Board/Libraries/TPS40305DRCR/DRC0010J.stp"
+		(model "${KIPRJMOD}/MCU and Pi Board/Libraries/TPS40305DRCR/DRC0010J.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10304,6 +10314,11 @@
 			(layer "F.Fab")
 			(uuid "72c88441-3329-4af5-b035-e30006800ebe")
 		)
+	(model "${KIPRJMOD}/Libraries/TB006_508_03BE/TB006-508-03BE.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
+	)
 		(pad "1" thru_hole rect
 			(at 0 0)
 			(size 1.95 1.95)
@@ -14750,6 +14765,11 @@
 			(layer "F.Fab")
 			(uuid "b0193429-ba9d-4878-b115-d4728c8d466c")
 		)
+	(model "${KIPRJMOD}/Libraries/RASPBERRY_PI_4B_4GB/RASPBERRY_PI_4B_4GB.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
+	)
 		(pad "1" thru_hole rect
 			(at -34.13 -23.23 270)
 			(size 1.524 1.524)
@@ -16129,6 +16149,11 @@
 			(layer "F.Fab")
 			(uuid "45132388-b7e7-4f55-902f-c58ee11d0c9e")
 		)
+	(model "${KIPRJMOD}/Libraries/TB006_508_03BE/TB006-508-03BE.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
+	)
 		(pad "1" thru_hole rect
 			(at 0 0)
 			(size 1.95 1.95)
@@ -17695,7 +17720,7 @@
 			(uuid "fafa43b9-9897-4f76-99af-b24a518c2bb0")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Aman Katyal/Documents/PCB Design/X18-ROV-Test-Bench/MCU and Pi Board/Libraries/MC74HC157ADR2G/SOIC-16_ONS.step"
+		(model "${KIPRJMOD}/MCU and Pi Board/Libraries/MC74HC157ADR2G/SOIC-16_ONS.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19230,7 +19255,7 @@
 			(uuid "dadc1c10-4124-47b2-8059-a128a598f2f3")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Aman Katyal/Documents/PCB Design/X18-ROV-Test-Bench/MCU and Pi Board/Libraries/BSC010N04LS6ATMA1/BSC010N04LS6ATMA1.step"
+		(model "${KIPRJMOD}/MCU and Pi Board/Libraries/BSC010N04LS6ATMA1/BSC010N04LS6ATMA1.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -23502,7 +23527,7 @@
 			(uuid "59a0c5aa-a8f8-4adf-bc04-1ec427394097")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Aman Katyal/Documents/PCB Design/X18-ROV-Test-Bench/MCU and Pi Board/Libraries/LM3940IMPX_3_3_NOPB/DCY0004A.stp"
+		(model "${KIPRJMOD}/MCU and Pi Board/Libraries/LM3940IMPX_3_3_NOPB/DCY0004A.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24791,7 +24816,7 @@
 			(uuid "15206fb1-6faa-405c-9419-b76715151a6d")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Aman Katyal/Documents/PCB Design/X18-ROV-Test-Bench/MCU and Pi Board/Libraries/LTC4370CMS_PBF/LTC4370CMS_PBF.step"
+		(model "${KIPRJMOD}/MCU and Pi Board/Libraries/LTC4370CMS_PBF/LTC4370CMS_PBF.step"
 			(offset
 				(xyz 0 0 0.5)
 			)
@@ -25801,7 +25826,7 @@
 			(uuid "1600171d-c257-41a9-bbec-2174baf521cd")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Aman Katyal/Documents/PCB Design/X18-ROV-Test-Bench/MCU and Pi Board/Libraries/PJ_002A/PJ-002A.step"
+		(model "${KIPRJMOD}/MCU and Pi Board/Libraries/PJ_002A/PJ-002A.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -27129,7 +27154,7 @@
 			(uuid "92a9447f-23fc-4785-ac72-e1fcffcb3199")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Aman Katyal/Documents/PCB Design/X18-ROV-Test-Bench/MCU and Pi Board/Libraries/MC74HC157ADR2G/SOIC-16_ONS.step"
+		(model "${KIPRJMOD}/MCU and Pi Board/Libraries/MC74HC157ADR2G/SOIC-16_ONS.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28648,7 +28673,7 @@
 			(uuid "eef8a68c-e246-4eab-b771-79e5daf1c237")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Aman Katyal/Documents/PCB Design/X18-ROV-Test-Bench/MCU and Pi Board/Libraries/PJ_002A/PJ-002A.step"
+		(model "${KIPRJMOD}/MCU and Pi Board/Libraries/PJ_002A/PJ-002A.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -29856,6 +29881,11 @@
 				)
 			)
 		)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
+	)
 		(pad "1" smd rect
 			(at 1.875 -1.9765 270)
 			(size 0.6604 1.7018)
@@ -34239,7 +34269,7 @@
 			(uuid "886c8da7-21e7-4e38-9828-1649b14699ca")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Aman Katyal/Documents/PCB Design/X18-ROV-Test-Bench/MCU and Pi Board/Libraries/ET60T-D04-0-00-D04-L-R1-S/ET60T-D04-0-00-D04-L-R1-S.stp"
+		(model "${KIPRJMOD}/MCU and Pi Board/Libraries/ET60T-D04-0-00-D04-L-R1-S/ET60T-D04-0-00-D04-L-R1-S.stp"
 			(offset
 				(xyz 1.25 5.5 4)
 			)
@@ -36486,6 +36516,11 @@
 			(layer "F.Fab")
 			(uuid "aa9ab654-1209-49f0-b2d7-909462317883")
 		)
+	(model "${KIPRJMOD}/Libraries/XAL6030-102MEC/XAL6030-102MEC.STEP"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
+	)
 		(pad "1" smd rect
 			(at -2.02 0 270)
 			(size 1.43 5.5)
@@ -37081,6 +37116,11 @@
 				)
 			)
 		)
+	(model "${KICAD9_3DMODEL_DIR}/Package_QFP.3dshapes/LQFP-48_7x7mm_P0.5mm.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
+	)
 		(pad "1" smd rect
 			(at -4.249999 -2.75 225)
 			(size 1.1938 0.3048)
@@ -38921,7 +38961,7 @@
 			(uuid "53d08c7a-4a5e-44be-a6c3-fbaf50a1e7b7")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Aman Katyal/Documents/PCB Design/X18-ROV-Test-Bench/MCU and Pi Board/Libraries/BSC010N04LS6ATMA1/BSC010N04LS6ATMA1.step"
+		(model "${KIPRJMOD}/MCU and Pi Board/Libraries/BSC010N04LS6ATMA1/BSC010N04LS6ATMA1.step"
 			(offset
 				(xyz 0 0 0)
 			)

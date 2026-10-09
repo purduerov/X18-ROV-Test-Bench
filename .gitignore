@@ -1,0 +1,28 @@
+# KiCad auto-backups
+*-backups/
+
+# Fab / plot / manufacturing outputs (regenerable from the .kicad_pcb)
+outputs/
+manufacturing/
+*.gbr
+*.drl
+*.gerber
+
+# Freerouter session files
+*.dsn
+
+# KiCad caches and lock files
+fp-info-cache
+*.lck
+~*
+
+# Component library source archives (extracted copies are tracked)
+*.zip
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*~
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak

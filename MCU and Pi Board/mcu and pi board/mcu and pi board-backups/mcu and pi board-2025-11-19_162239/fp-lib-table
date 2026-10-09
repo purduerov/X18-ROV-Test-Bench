@@ -1,5 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "mcu and pi board")(type "KiCad")(uri "C:/Users/Aman Katyal/Documents/PCB Design/MCU and Pi Board/mcu and pi board.pretty")(options "")(descr ""))
-  (lib (name "custom library")(type "KiCad")(uri "${KIPRJMOD}/custom library.pretty")(options "")(descr ""))
-)

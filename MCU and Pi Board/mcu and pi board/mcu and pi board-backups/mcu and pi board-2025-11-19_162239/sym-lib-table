@@ -1,7 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "custom library")(type "KiCad")(uri "${KIPRJMOD}/custom library.kicad_sym")(options "")(descr ""))
-  (lib (name "2025-09-24_23-29-26")(type "KiCad")(uri "C:/Users/Aman Katyal/Documents/PCB Design/MCU and Pi Board/Libraries/LM3940IMPX_3_3_NOPB/KiCADv6/2025-09-24_23-29-26.kicad_sym")(options "")(descr ""))
-  (lib (name "LTC4370CMS_PBF")(type "KiCad")(uri "C:/Users/Aman Katyal/Documents/PCB Design/MCU and Pi Board/Libraries/LTC4370CMS_PBF/LTC4370CMS_PBF.kicad_sym")(options "")(descr ""))
-  (lib (name "2025-10-14_03-50-07")(type "KiCad")(uri "C:/Users/Aman Katyal/Documents/PCB Design/MCU and Pi Board/Libraries/CSD17578Q3A/KiCADv6/2025-10-14_03-50-07.kicad_sym")(options "")(descr ""))
-)
